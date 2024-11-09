@@ -21,8 +21,8 @@ class LogoAdmin(admin.ModelAdmin):
 
 @admin.register(BannerImage)
 class BannerImageAdmin(admin.ModelAdmin):
-    list_display = ('id', 'image')
-    search_fields = ('id',)
+    list_display = ('image', )
+    search_fields = ('image',)
 
 
 @admin.register(Banner)
